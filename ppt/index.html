@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Piedra - Papel - Tijera - Lagarto - Spock</title>
+	<!--link rel="stylesheet" type="text/css" href="css/main.css"-->
+</head>
+<body>
+	<header>
+		<h2>A jugar como los geeks</h2>
+		<p>El clasico juego de piedra - papel - tijera - <i>lagarto</i> - <i>spock</i><br />
+			Claro que todos somos geeks que se respetan y sabemos como se juega no?</p>
+	</header>
+
+	<section>
+		<p><strong>Jerarquías</strong><br />
+			<ul>
+				<li><i>Piedra</i> aplasta lagarto</li>
+				<li><i>Piedra</i> destroza tijeras</li>
+				<li><i>Papel</i> cubre piedra</li>
+				<li><i>Papel</i> refuta a spock</li>
+				<li><i>Tijeras</i> cortan papel</li>
+				<li><i>Tijeras</i> decapitan lagarto</li>
+				<li><i>Lagarto</i> envenenda a Spock</li>
+				<li><i>Lagarto</i> se come el papel</li>
+				<li><i>Spock</i> destroza tijeras</li>
+				<li><i>Spock</i> vaporiza piedra</li>
+			</ul>
+		</p>
+		<br />
+		<article>
+			<h3>Jugemos!</h3><br />
+			<select id="opciones">
+				<option value="piedra">Piedra</option>
+				<option value="papel">Papel</option>
+				<option value="tijeras">Tijera</option>
+				<option value="lagarto">Lagarto</option>
+				<option value="spock">Spock</option>
+			</select>
+			<input type="button" value="Jugar" onclick="juegoFull()">
+			<p id="resultados"><br /><br /><br /></p>
+		</article>
+	</section>
+	<script type="text/javascript" src="js/ppt.js"></script>
+</body>
+</html>
