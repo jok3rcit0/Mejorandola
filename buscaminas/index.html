@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Buscaminas</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<p>Buscaminas Online</p>
+	<p id="resultado"></p>
+	<br />
+	<table border='1'>
+		<tr>
+			<td class='cesped' name='bom' data-index='0,0' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+			<td class='cesped' data-index='0,1' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+			<td class='cesped' data-index='0,2' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class='cesped' data-index='1,0' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+			<td class='cesped' name='bom' data-index='1,1' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+			<td class='cesped' data-index='1,2' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class='cesped' name='bom' data-index='2,0' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+			<td class='cesped' name='bom' data-index='2,1' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+			<td class='cesped' name='bom' data-index='2,2' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+		</tr>
+	</table>
+</body>
+<script type="text/javascript" src="js/minas.js"></script>
+</html>
