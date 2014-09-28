@@ -12,13 +12,13 @@
 	<table border='1'>
 		<tr>
 			<td class='cesped' name='bom' data-index='0,0' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
-			<td class='cesped' data-index='0,1' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
-			<td class='cesped' data-index='0,2' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+			<td class='cesped' name='ces' data-index='0,1' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+			<td class='cesped' name='ces' data-index='0,2' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
 		</tr>
 		<tr>
-			<td class='cesped' data-index='1,0' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+			<td class='cesped' name='ces' data-index='1,0' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
 			<td class='cesped' name='bom' data-index='1,1' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
-			<td class='cesped' data-index='1,2' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
+			<td class='cesped' name='ces' data-index='1,2' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
 		</tr>
 		<tr>
 			<td class='cesped' name='bom' data-index='2,0' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
@@ -26,6 +26,7 @@
 			<td class='cesped' name='bom' data-index='2,2' onclick="getIndex(this.getAttribute('data-index'))">&nbsp;</td>
 		</tr>
 	</table>
+	<input type="button" value="Volver a jugar" onclick="playAgain()">
 </body>
 <script type="text/javascript" src="js/minas.js"></script>
 </html>

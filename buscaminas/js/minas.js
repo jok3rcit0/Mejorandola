@@ -16,6 +16,18 @@ function ganar()
 	alert("YOU ROCK!! Ganaste!");
 }
 
+function playAgain()
+{
+	e = document.getElementsByName('bom');
+	for (var i = 0; i < e.length; i++) {
+		e[i].className = 'cesped';
+	};
+	e = document.getElementsByName('ces');
+	for (var i = 0; i < e.length; i++) {
+		e[i].className = 'cesped';
+	};
+}
+
 function getIndex(id)
 {
 	
@@ -35,6 +47,8 @@ function getIndex(id)
 
 		}else{
 			ganar();
+			e = document.getElementsByName('ces');
+			e[0].className = 'correcto';
 			res = 'Y sigues vivo, pero por ¿Cuánto más?';
 		}
 	}
